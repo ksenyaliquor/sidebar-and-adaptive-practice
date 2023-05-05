@@ -1,0 +1,70 @@
+@media (max-width: 1280px) {
+
+    .profession__icon-how {
+        left: 0;
+    }
+
+    .techsup__block-descr {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .main__container {
+        flex-direction: column;
+    }
+
+    .preparation__list {
+        flex-direction: column;
+    }
+
+    .preparation__item {
+        max-width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .preparation__item:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .profession__icon {
+        display: none;
+    }
+
+    .profession__item-how {
+        padding-left: 0;
+        padding: 16px;
+    }
+
+    .aside__block {
+        max-width: 100%;
+    }
+
+    .techsup {
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .profession__item {
+    flex-direction: column;
+    }
+
+    .profession__info {
+        margin-bottom: 6px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .profession__info-title-how {
+        margin-right: 0;
+    }
+
+    .profession__item-wrap {
+        flex-direction: column;
+    }
+
+}
